@@ -10,3 +10,6 @@ The system is updated weekly with the IP's of the Amazon servers, and if the ser
  A lot of easy :smiley:. It is written in PURE PHP. Only need to include the files. Tested on basic PHP installation
  
          require_once( 'block_amazon_ips.php' );
+
+# REQUERIMENTS:
+You need a **cache folder** with write perms.
