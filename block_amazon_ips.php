@@ -3,7 +3,7 @@
 $jsonFile = 'https://ip-ranges.amazonaws.com/ip-ranges.json';
 
 
-$cacheFile = __DIR__ . '/../cache/amazon_ips.cache.json';
+$cacheFile = __DIR__ . '/cache/amazon_ips.cache.json';
 $cacheFileCsv = $cacheFile.'.csv';
 $updateInterval = 7 * 24 * 60 * 60; // 7 días en segundos
 
